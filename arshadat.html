@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>إرشادات الاستخدام - شبكة استارلينك</title>
+<title>إرشادات الاستخدام - شبكة البرق</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -15,154 +15,172 @@
     font-family: "Cairo", sans-serif;
 }
 body {
-    background: #000000;               /* خلفية سوداء نقية 100% */
-    color: #e0f0ff;
+    background: #0a0a0a;              /* أسود عميق */
+    color: #ffffff;
     padding: 20px;
     line-height: 1.6;
-    /* خيارات بديلة: خلفيات سوداء مع لمسة زرقاء خفيفة (انسخ أي رابط وضعه هنا) */
-    /* background: url('https://thumbs.dreamstime.com/b/cosmic-blue-nebula-glowing-stars-interconnected-lines-deep-space-ai-generated-378131590.jpg') center/cover no-repeat fixed; */
-    /* background: url('https://thumbs.dreamstime.com/b/abstract-d-techno-background-featuring-flowing-blue-particles-shallow-depth-field-modern-futuristic-design-glowing-waves-402380204.jpg') center/cover no-repeat fixed; */
 }
 
 /* هيدر */
 header {
     text-align: center;
-    padding: 30px 10px;
+    padding: 40px 10px;
     animation: fade 1s ease;
 }
 header h1 {
     font-size: 2.6rem;
     font-weight: 700;
-    color: #4dabf7;          /* أزرق لامع تقني */
-    margin-bottom: 5px;
+    background: linear-gradient(135deg, #FFD700, #D4AF37);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+    filter: drop-shadow(0 0 8px rgba(212, 175, 55, 0.3));
 }
 header p {
-    color: #a3c9ff;
-    font-size: 1.1rem;
+    color: #D4AF37;
+    font-size: 1.2rem;
+    opacity: 0.9;
 }
 
 /* قسم الإرشادات */
 .guide-section {
     margin-top: 35px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .guide-card {
-    background: rgba(30, 30, 50, 0.35); /* أسود شفاف + لمسة زرقاء داكنة */
-    border: 1px solid rgba(77, 171, 247, 0.25);
-    border-radius: 15px;
-    padding: 20px;
-    transition: transform 0.3s, box-shadow 0.3s;
+    background: #161616; 
+    border: 1px solid rgba(212, 175, 55, 0.3);
+    border-radius: 20px;
+    padding: 25px;
+    transition: all 0.4s ease;
     opacity: 0;
     transform: translateY(20px);
     animation: pop 0.8s forwards;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 .guide-card:hover {
-    transform: translateY(-6px) scale(1.03);
-    box-shadow: 0 0 20px rgba(77, 171, 247, 0.5);
+    transform: translateY(-8px);
+    border-color: #D4AF37;
+    box-shadow: 0 15px 35px rgba(212, 175, 55, 0.15);
 }
 .guide-card h2 {
-    color: #4dabf7;
-    font-size: 1.5rem;
-    margin-bottom: 12px;
+    color: #FFD700;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
     display: flex;
     align-items: center;
 }
 .guide-card h2::before {
-    content: "💡";
-    margin-left: 8px;
+    content: "✦";
+    margin-left: 10px;
+    color: #D4AF37;
 }
 .guide-content {
-    color: #eee;
-    font-size: 1.1rem;
-    line-height: 1.7;
+    color: #e0e0e0;
+    font-size: 1.05rem;
+    line-height: 1.8;
 }
 .guide-content strong {
-    color: #60a5fa;          /* أزرق أفتح للنصوص المهمة */
+    color: #FFD700;
 }
 .guide-content span {
-    color: #4dabf7;
-}
-.guide-content .lite {
-    color: #e2e2e2;
+    color: #D4AF37;
+    font-weight: bold;
 }
 .guide-content .warning {
-    color: #ff6b6b;          /* أحمر ناعم للتحذيرات */
+    color: #ffccbc; /* لون تنبيه فاتح يتناسب مع الذهبي */
+    background: rgba(255, 107, 107, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 .guide-list {
     list-style: none;
     padding-left: 0;
-    margin-top: 10px;
+    margin: 15px 0;
 }
 .guide-list li {
-    padding: 6px 10px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 15px;
+    border-right: 3px solid #D4AF37;
+    background: rgba(212, 175, 55, 0.05);
+    margin-bottom: 8px;
     color: #eee;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    border-radius: 0 8px 8px 0;
 }
 
-/* footer */
+/* التذييل */
 footer {
     text-align: center;
-    margin-top: 40px;
-    color: #666;
+    margin-top: 60px;
+    padding: 20px;
+    color: #555;
+    border-top: 1px solid #1a1a1a;
 }
 
 /* أنيميشن */
 @keyframes fade { 0% {opacity:0;} 100% {opacity:1;} }
 @keyframes pop { 0% {opacity:0; transform:translateY(20px);} 100% {opacity:1; transform:translateY(0);} }
+
+/* تحسين للهواتف */
+@media (max-width: 480px) {
+    header h1 { font-size: 2rem; }
+    .guide-card { padding: 20px; }
+}
 </style>
 </head>
 <body>
 
 <header>
-    <h1>إرشادات الاستخدام - شبكة استارلينك</h1>
-    <p>نصائح لتوفير البيانات والرصيد أثناء استخدام التطبيقات</p>
+    <h1>إرشادات الاستخدام - شبكة البرق ⚡</h1>
+    <p>دليلك الذكي لتوفير البيانات والحفاظ على الرصيد</p>
 </header>
 
 <section class="guide-section">
 
     <div class="guide-card" style="animation-delay:0s;">
-        <h2>1. تعطيل التحديثات التلقائية</h2>
+        <h2>1. التحديثات التلقائية</h2>
         <div class="guide-content">
-            <p>ننصح باختيار تعطيل التحديثات التلقائية من المتجر لتجنب استهلاك البيانات.</p>
+            <p>أول خطوة لتوفير رصيدك هي <strong>تعطيل التحديثات التلقائية</strong> من متجر التطبيقات (Play Store / App Store)، حيث أن التحديثات قد تبدأ فجأة وتستهلك الباقة بالكامل.</p>
         </div>
     </div>
 
     <div class="guide-card" style="animation-delay:0.1s;">
-        <h2>2. تطبيق فيسبوك</h2>
+        <h2>2. فيسبوك (Facebook)</h2>
         <div class="guide-content">
-            <p>تطبيق <strong><span>Facebook (الأزرق)</span></strong> يستهلك البيانات استهلاكاً كبيراً. لمن يريد استهلاكاً أقل، يستخدم التطبيق الآخر من نفس الشركة ولكنه أخف، وهو <strong><span class="lite">Facebook Lite (الأبيض)</span></strong>.</p>
+            <p>تطبيق <span>Facebook الأساسي</span> يستهلك كميات ضخمة من البيانات في الخلفية. الخيار الأفضل هو استخدام <strong>Facebook Lite</strong> المصمم خصيصاً للتوفير.</p>
         </div>
     </div>
 
     <div class="guide-card" style="animation-delay:0.2s;">
-        <h2>3. تطبيق يوتيوب</h2>
+        <h2>3. ضبط جودة اليوتيوب</h2>
         <div class="guide-content">
-            <p>تطبيقات <strong><span class="warning">يوتيوب (YouTube)</span></strong> تعرض جودة الفيديوهات بشكل تلقائي حسب سرعة العميل <strong><span class="warning">مما يؤدي إلى استهلاك البيانات (الرصيد)</span></strong>. لمن يريد استهلاكاً أقل (جودة فيديو متوسطة)، يقوم بتغيير من الإعدادات جودة الفيديو من تلقائية إلى مثلاً 360 بيكسل (أو حسب الدقة المطلوبة). وكذلك الحال في تطبيقات <strong>الفيسبوك، الفيدميت، السنابتوب</strong> وغيرها.</p>
+            <p>تجنب ترك جودة الفيديو <strong>"تلقائية"</strong>. قم بضبطها يدوياً على <span class="warning">360p أو 480p</span> لموازنة الاستهلاك. هذا ينطبق أيضاً على تيك توك وإنستقرام.</p>
         </div>
     </div>
 
     <div class="guide-card" style="animation-delay:0.3s;">
-        <h2>4. إغلاق التحميل التلقائي</h2>
+        <h2>4. التحميل التلقائي للميديا</h2>
         <div class="guide-content">
-            <p>تأكد من <strong><span class="warning">إغلاق خاصية التحميل التلقائي للفيديوهات والصور والملفات</span></strong> الموجودة في التطبيقات الشائعة مثل:</p>
+            <p>تأكد من إغلاق خاصية "التحميل التلقائي" في التطبيقات التالية لتتحكم في ما يتم تحميله:</p>
             <ul class="guide-list">
-                <li>فيسبوك وفيسبوك لايت</li>
-                <li>يوتيوب</li>
-                <li>إنستغرام</li>
-                <li>سناب شات</li>
-                <li>تيك توك</li>
-                <li>واتساب وتليغرام</li>
+                <li>واتساب وتليغرام (هام جداً)</li>
+                <li>سناب شات وإنستغرام</li>
+                <li>تيك توك وفيسبوك</li>
             </ul>
-            <p>ابحث عن "التحميل التلقائي" في إعدادات كل تطبيق وأغلقها لتوفير الرصيد.</p>
+            <p>يمكنك العثور على هذا الخيار في إعدادات <span>"استخدام البيانات والتخزين"</span> داخل كل تطبيق.</p>
         </div>
     </div>
 
 </section>
 
+<footer>
+    &copy; 2026 جميع الحقوق محفوظة لشبكة البرق
+</footer>
 
 </body>
-
 </html>
