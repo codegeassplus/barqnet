@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>باقات شبكة استارلينك</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+body {
+    background: #000000;               /* خلفية سوداء نقية */
+    color: #e0f0ff;
+    padding: 20px;
+    /* خيار بديل: خلفية سوداء مع نجوم خفيفة */
+    /* background: url('https://media.istockphoto.com/id/498478219/photo/stars-at-night-sky.jpg') center/cover no-repeat fixed; */
+}
+
+/* هيدر */
+header {
+    text-align: center;
+    padding: 25px 0;
+    animation: fade 1s ease;
+}
+header h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #4dabf7; /* أزرق لامع */
+}
+header p {
+    margin-top: 8px;
+    color: #a3c9ff;
+    font-size: 1.1rem;
+}
+
+/* الباقات */
+.packages-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 18px;
+    margin-top: 25px;
+}
+.package-card {
+    background: rgba(30, 30, 50, 0.35); /* أسود شفاف خفيف مع لمسة زرقاء داكنة */
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(77, 171, 247, 0.25);
+    border-radius: 18px;
+    padding: 22px;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: pop .8s ease forwards;
+    transition: all 0.4s ease;
+}
+.package-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 0 25px rgba(77, 171, 247, 0.45);
+}
+
+.package-price {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #4dabf7;
+}
+.package-duration {
+    font-size: 1rem;
+    opacity: 0.85;
+    margin-bottom: 15px;
+    color: #a3c9ff;
+}
+
+.package-feature {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.feature-value {
+    color: #60a5fa;
+}
+
+/* زر الواتساب (باقي كما هو) */
+.whatsapp-number {
+    display: inline-block;
+    background: #25D366;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 45px;
+    margin: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+.whatsapp-number:hover {
+    transform: scale(1.08);
+}
+
+/* زر القروب */
+.group-link {
+    display: inline-block;
+    background: #3b82f6;
+    color: #ffffff;
+    padding: 14px 34px;
+    border-radius: 45px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .3s;
+}
+.group-link:hover {
+    background: #2563eb;
+    transform: scale(1.07);
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
+
+/* أنيميشن */
+@keyframes fade { 0% {opacity:0;} 100% {opacity:1;} }
+@keyframes fade-up { 0% {opacity:0; transform:translateY(10px);} 100% {opacity:1; transform:translateY(0);} }
+@keyframes pop { to {opacity:1; transform:translateY(0);} }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>باقات شبكة استارلينك</h1>
+    <p>سرعة وثبات وأفضل تغطية</p>
+</header>
+
+<section class="packages-grid">
+
+    <div class="package-card">
+        <div class="package-price">200 ريال</div>
+        <div class="package-duration">2 ايام</div>
+        <div class="package-feature"><span>الحجم</span><span class="feature-value">1 جيجا</span></div>
+    </div>
+
+    <div class="package-card">
+        <div class="package-price">500 ريال</div>
+        <div class="package-duration">اسبوع</div>
+        <div class="package-feature"><span>الحجم</span><span class="feature-value">2.5 جيجا</span></div>
+    </div>
+
+    <div class="package-card">
+        <div class="package-price">1000 ريال</div>
+        <div class="package-duration">شهر</div>
+        <div class="package-feature"><span>الحجم</span><span class="feature-value">6 جيجا</span></div>
+    </div>
+
+    <div class="package-card">
+        <div class="package-price">2500 ريال</div>
+        <div class="package-duration">شهر</div>
+        <div class="package-feature"><span>الحجم</span><span class="feature-value">18 جيجا</span></div>
+    </div>
+
+    <div class="package-card">
+        <div class="package-price">4500 ريال</div>
+        <div class="package-duration">شهر</div>
+        <div class="package-feature"><span>الحجم</span><span class="feature-value">35 جيجا</span></div>
+    </div>
+    
+    <div class="package-card">
+        <div class="package-price">10000 ريال</div>
+        <div class="package-duration">شهر</div>
+        <div class="package-feature"><span>الحجم</span><span class="feature-value">80 جيجا</span></div>
+    </div>
+
+</section>
+
+
+</body>
+
+</html>

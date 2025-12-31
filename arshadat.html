@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>إرشادات الاستخدام - شبكة استارلينك</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+body {
+    background: #000000;               /* خلفية سوداء نقية 100% */
+    color: #e0f0ff;
+    padding: 20px;
+    line-height: 1.6;
+    /* خيارات بديلة: خلفيات سوداء مع لمسة زرقاء خفيفة (انسخ أي رابط وضعه هنا) */
+    /* background: url('https://thumbs.dreamstime.com/b/cosmic-blue-nebula-glowing-stars-interconnected-lines-deep-space-ai-generated-378131590.jpg') center/cover no-repeat fixed; */
+    /* background: url('https://thumbs.dreamstime.com/b/abstract-d-techno-background-featuring-flowing-blue-particles-shallow-depth-field-modern-futuristic-design-glowing-waves-402380204.jpg') center/cover no-repeat fixed; */
+}
+
+/* هيدر */
+header {
+    text-align: center;
+    padding: 30px 10px;
+    animation: fade 1s ease;
+}
+header h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #4dabf7;          /* أزرق لامع تقني */
+    margin-bottom: 5px;
+}
+header p {
+    color: #a3c9ff;
+    font-size: 1.1rem;
+}
+
+/* قسم الإرشادات */
+.guide-section {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.guide-card {
+    background: rgba(30, 30, 50, 0.35); /* أسود شفاف + لمسة زرقاء داكنة */
+    border: 1px solid rgba(77, 171, 247, 0.25);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: pop 0.8s forwards;
+}
+.guide-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 0 20px rgba(77, 171, 247, 0.5);
+}
+.guide-card h2 {
+    color: #4dabf7;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.guide-card h2::before {
+    content: "💡";
+    margin-left: 8px;
+}
+.guide-content {
+    color: #eee;
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+.guide-content strong {
+    color: #60a5fa;          /* أزرق أفتح للنصوص المهمة */
+}
+.guide-content span {
+    color: #4dabf7;
+}
+.guide-content .lite {
+    color: #e2e2e2;
+}
+.guide-content .warning {
+    color: #ff6b6b;          /* أحمر ناعم للتحذيرات */
+}
+.guide-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+.guide-list li {
+    padding: 6px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #eee;
+    font-size: 1.1rem;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
+
+/* أنيميشن */
+@keyframes fade { 0% {opacity:0;} 100% {opacity:1;} }
+@keyframes pop { 0% {opacity:0; transform:translateY(20px);} 100% {opacity:1; transform:translateY(0);} }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>إرشادات الاستخدام - شبكة استارلينك</h1>
+    <p>نصائح لتوفير البيانات والرصيد أثناء استخدام التطبيقات</p>
+</header>
+
+<section class="guide-section">
+
+    <div class="guide-card" style="animation-delay:0s;">
+        <h2>1. تعطيل التحديثات التلقائية</h2>
+        <div class="guide-content">
+            <p>ننصح باختيار تعطيل التحديثات التلقائية من المتجر لتجنب استهلاك البيانات.</p>
+        </div>
+    </div>
+
+    <div class="guide-card" style="animation-delay:0.1s;">
+        <h2>2. تطبيق فيسبوك</h2>
+        <div class="guide-content">
+            <p>تطبيق <strong><span>Facebook (الأزرق)</span></strong> يستهلك البيانات استهلاكاً كبيراً. لمن يريد استهلاكاً أقل، يستخدم التطبيق الآخر من نفس الشركة ولكنه أخف، وهو <strong><span class="lite">Facebook Lite (الأبيض)</span></strong>.</p>
+        </div>
+    </div>
+
+    <div class="guide-card" style="animation-delay:0.2s;">
+        <h2>3. تطبيق يوتيوب</h2>
+        <div class="guide-content">
+            <p>تطبيقات <strong><span class="warning">يوتيوب (YouTube)</span></strong> تعرض جودة الفيديوهات بشكل تلقائي حسب سرعة العميل <strong><span class="warning">مما يؤدي إلى استهلاك البيانات (الرصيد)</span></strong>. لمن يريد استهلاكاً أقل (جودة فيديو متوسطة)، يقوم بتغيير من الإعدادات جودة الفيديو من تلقائية إلى مثلاً 360 بيكسل (أو حسب الدقة المطلوبة). وكذلك الحال في تطبيقات <strong>الفيسبوك، الفيدميت، السنابتوب</strong> وغيرها.</p>
+        </div>
+    </div>
+
+    <div class="guide-card" style="animation-delay:0.3s;">
+        <h2>4. إغلاق التحميل التلقائي</h2>
+        <div class="guide-content">
+            <p>تأكد من <strong><span class="warning">إغلاق خاصية التحميل التلقائي للفيديوهات والصور والملفات</span></strong> الموجودة في التطبيقات الشائعة مثل:</p>
+            <ul class="guide-list">
+                <li>فيسبوك وفيسبوك لايت</li>
+                <li>يوتيوب</li>
+                <li>إنستغرام</li>
+                <li>سناب شات</li>
+                <li>تيك توك</li>
+                <li>واتساب وتليغرام</li>
+            </ul>
+            <p>ابحث عن "التحميل التلقائي" في إعدادات كل تطبيق وأغلقها لتوفير الرصيد.</p>
+        </div>
+    </div>
+
+</section>
+
+
+</body>
+
+</html>

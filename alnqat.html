@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نقاط البيع - شبكة استارلينك</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+body {
+    background: #000000;               /* خلفية سوداء نقية تماماً */
+    color: #e0f0ff;
+    padding: 20px;
+    line-height: 1.6;
+    /* خيار بديل: خلفية سوداء مع نجوم خفيفة أو شبكة تقنية */
+    /* background: url('https://thumbs.dreamstime.com/b/serene-cosmic-background-vast-open-space-print-card-poster-design-tranquil-scene-showcases-expanse-glowing-star-327520554.jpg') center/cover no-repeat fixed; */
+    /* أو: background: url('https://thumbs.dreamstime.com/b/digital-network-glowing-nodes-connections-abstract-grid-pattern-blue-orange-lights-dark-background-modern-tech-design-385685632.jpg') center/cover no-repeat fixed; */
+}
+
+/* هيدر */
+header {
+    text-align: center;
+    padding: 30px 10px;
+    animation: fade 1s ease;
+}
+header h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #4dabf7;          /* أزرق لامع بدل البرتقالي */
+    margin-bottom: 5px;
+}
+header p {
+    color: #a3c9ff;
+    font-size: 1.1rem;
+}
+
+/* قسم المناطق */
+.sales-section {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.region-card {
+    background: rgba(30, 30, 50, 0.35); /* أسود شفاف مع لمسة زرقاء داكنة */
+    border: 1px solid rgba(77, 171, 247, 0.25);
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: pop 0.8s forwards;
+}
+.region-card:hover {
+    transform: translateY(-6px) scale(1.03);
+    box-shadow: 0 0 20px rgba(77, 171, 247, 0.5);
+}
+.region-card h2 {
+    color: #4dabf7;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.region-card h2::before {
+    content: "📍";
+    margin-left: 8px;
+}
+.sales-list {
+    list-style: none;
+    padding-left: 0;
+}
+.sales-list li {
+    padding: 6px 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #eee;
+    font-size: 1.1rem;
+}
+
+/* تواصل */
+.contact-section {
+    margin-top: 40px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(77, 171, 247, 0.35);
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+}
+.contact-section h3 {
+    color: #4dabf7;
+    margin-bottom: 20px;
+}
+.whatsapp-number {
+    display: inline-block;
+    background: #25D366;
+    color: #fff;
+    padding: 12px 28px;
+    border-radius: 45px;
+    margin: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .3s;
+}
+.whatsapp-number:hover {
+    transform: scale(1.08);
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #666;
+}
+
+/* أنيميشن */
+@keyframes fade { 0% {opacity:0;} 100% {opacity:1;} }
+@keyframes pop { 0% {opacity:0; transform:translateY(20px);} 100% {opacity:1; transform:translateY(0);} }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>نقاط البيع - شبكة استارلينك ⚡</h1>
+    <p>خدماتنا متوفرة في أقرب البقالات والمحلات</p>
+</header>
+
+<section class="sales-section">
+
+    <div class="region-card" style="animation-delay:0s;">
+        <h2>ساحة الزاوية</h2>
+        <ul class="sales-list">
+            <li>صالون عوضاني</li>
+            <li>بقالة بومحمد</li>          
+            <li>قريباً..</li>
+            <li>قريباً..</li>
+        </ul>
+    </div>
+
+    <div class="region-card" style="animation-delay:0.2s;">
+        <h2>ساحة النور</h2>
+        <ul class="sales-list">
+            <li>بقالة بن عبدون</li>         
+            <li>قريباً..</li>
+            <li>قريباً..</li>
+        </ul>
+    </div>
+
+</section>
+
+
+
+</body>
+
+</html>
