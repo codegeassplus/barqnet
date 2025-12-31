@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ألعاب PlayAl3ab</title>
+    <title>ألعاب شبكة البرق</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -12,66 +12,85 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            background: #000000;              /* خلفية سوداء نقية */
-            color: #e0f0ff;
+            background: #0a0a0a;              /* أسود داكن جداً */
+            color: #ffffff;
             font-family: "Cairo", sans-serif;
             text-align: center;
             margin: 0;
             padding: 20px;
-            /* خيار: خلفية سوداء مع نجوم خفيفة إذا أردت */
-            /* background: url('https://media.istockphoto.com/id/498478219/photo/stars-at-night-sky.jpg') center/cover no-repeat fixed; */
+            overflow: hidden;
         }
 
         h1 {
-            font-size: 3rem;
+            font-size: 3.5rem;
             font-weight: 700;
-            color: #4dabf7;                   /* أزرق لامع تقني */
-            margin-bottom: 50px;
-            text-shadow: 0 0 15px rgba(77, 171, 247, 0.5);
+            /* تدرج ذهبي للنص */
+            background: linear-gradient(to bottom, #FFD700 0%, #D4AF37 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.3));
         }
 
         .subtitle {
             font-size: 1.4rem;
-            color: #a3c9ff;
-            margin-bottom: 60px;
+            color: #d1d1d1;
+            margin-bottom: 50px;
             max-width: 600px;
-            opacity: 0.9;
+            line-height: 1.6;
+        }
+
+        .subtitle span {
+            color: #D4AF37; /* تمييز كلمة شبكة البرق بالذهبي */
+            font-weight: bold;
         }
 
         button {
-            padding: 18px 50px;
+            padding: 18px 60px;
             font-size: 1.4rem;
-            background: linear-gradient(135deg, #4dabf7, #3b82f6);
-            color: #ffffff;
+            /* تدرج ذهبي ملكي للزر */
+            background: linear-gradient(135deg, #D4AF37, #996515);
+            color: #000000; /* نص أسود فوق الذهبي للوضوح */
             border: none;
             border-radius: 50px;
             cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: bold;
-            box-shadow: 0 0 20px rgba(77, 171, 247, 0.4);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            font-weight: 800;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3), 0 0 15px rgba(212, 175, 55, 0.4);
+            position: relative;
+            overflow: hidden;
         }
 
         button:hover {
-            transform: translateY(-3px) scale(1.05);
-            box-shadow: 0 0 35px rgba(77, 171, 247, 0.7);
-            background: linear-gradient(135deg, #60a5fa, #3b82f6);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(212, 175, 55, 0.6);
+            background: linear-gradient(135deg, #FFD700, #D4AF37);
         }
 
         button:active {
-            transform: translateY(1px);
+            transform: translateY(2px);
         }
 
-        /* تأثير خفيف للخلفية (اختياري) */
+        /* توهج خلفي ذهبي */
         .glow {
             position: absolute;
-            top: 50%;
+            top: 40%;
             left: 50%;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(77,171,247,0.12) 0%, transparent 70%);
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.1) 0%, transparent 70%);
             transform: translate(-50%, -50%);
             pointer-events: none;
             z-index: -1;
+        }
+
+        /* خط زخرفي ذهبي تحت العنوان */
+        .divider {
+            width: 80px;
+            height: 4px;
+            background: #D4AF37;
+            margin: 0 auto 40px;
+            border-radius: 2px;
         }
     </style>
 </head>
@@ -79,17 +98,17 @@
 
     <div class="glow"></div>
 
-    <h1>ألعاب </h1>
+    <h1>ألعاب</h1>
+    <div class="divider"></div>
     
     <p class="subtitle">
         استمتع بأفضل الألعاب المجانية والممتعة<br>
-           مع شبكة استارلينك 🚀
+        مع <span>شبكة البرق 🚀</span>
     </p>
 
     <button onclick="window.open('https://playal3ab.com/', '_blank')">
-        افتح الألعاب الآن
+        العب الآن
     </button>
 
 </body>
-
 </html>
