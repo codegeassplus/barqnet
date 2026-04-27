@@ -21,10 +21,7 @@
   },
 
 
-{
-    "name": "u",
-    "url": "http://g1.genral2025.cfd:8080/sa2.html?token=b3ccf44ba75b9f20c94d356d76682055&ip=150.228.11.144"
-  },
+
 
 
 {
@@ -69,6 +66,11 @@
 {
     "name": "شباب اليمن",
     "url": "https://yemenshabab.site:13334/app/live/medialist_7806664055920539159_hls.m3u8"
+  },
+
+{
+    "name": "شباب الوادي",
+    "url": "https://live20.bozztv.com/akamaissh101/ssh101/qatn/playlist.m3u8"
   },
 
 {
