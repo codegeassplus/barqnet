@@ -1,102 +1,108 @@
 [
+
+     {
+        "category_id": "775623097",
+        "category_name": " البرق -- اسبورت",
+        "parent_id": 0
+    },
     {
         "category_id": "1146",
-        "category_name": "AR  | BEIN SPORTS - SOURCE 1",
+        "category_name": " BEIN SPORTS - S1",
         "parent_id": 0
     },
     {
         "category_id": "1126",
-        "category_name": "AR  | BEIN SPORTS - SOURCE 2",
+        "category_name": " BEIN SPORTS - S2",
         "parent_id": 0
     },
     {
         "category_id": "1549",
-        "category_name": "AR | BEIN SPORTS - SOURCE 3",
+        "category_name": " BEIN SPORTS - S3",
         "parent_id": 0
     },
     {
         "category_id": "1550",
-        "category_name": "AR | BEIN SPORTS -  SOURCE 5",
+        "category_name": " BEIN SPORTS -  S5",
         "parent_id": 0
     },
     {
         "category_id": "1704",
-        "category_name": "AR | BEIN SPORTS - SOURCE 6",
+        "category_name": " BEIN SPORTS - S6",
         "parent_id": 0
     },
     {
         "category_id": "1703",
-        "category_name": "AR | BEIN SPORTS - SOURCE 7",
+        "category_name": " BEIN SPORTS - S7",
         "parent_id": 0
     },
     {
         "category_id": "1705",
-        "category_name": "AR | BEIN SPORTS - SOURCE 8",
+        "category_name": " BEIN SPORTS - S8",
         "parent_id": 0
     },
     {
         "category_id": "1149",
-        "category_name": "AR  | BEIN SPORTS - 3840P",
+        "category_name": " BEIN SPORTS - 3840P",
         "parent_id": 0
     },
     {
         "category_id": "1701",
-        "category_name": "AR | NM - SPORTS ( EVENTS TIME )",
+        "category_name": " NM - SPORTS ( EVENTS TIME )",
         "parent_id": 0
     },
     {
         "category_id": "1244",
-        "category_name": "AR | ALWAN SPORT ⁴ᴷ",
+        "category_name": " ALWAN SPORT ⁴ᴷ",
         "parent_id": 0
     },
     {
         "category_id": "1708",
-        "category_name": "AR| LALIGA ARABI 1001",
+        "category_name": " LALIGA ARABI 1001",
         "parent_id": 0
     },
     {
         "category_id": "1664",
-        "category_name": "AR | SHASHA SPORT ( MATCH TIME )",
+        "category_name": " SHASHA SPORT ( MATCH TIME )",
         "parent_id": 0
     },
     {
         "category_id": "1250",
-        "category_name": "AR | ALTHAMANIA SPORT (MATCH TIME EVENTS )  ◉ الـثـمـانـيـة الـريـاضـيـة",
+        "category_name": " ALTHAMANIA SPORT (MATCH TIME EVENTS )  ◉ الـثـمـانـيـة الـريـاضـيـة",
         "parent_id": 0
     },
     {
         "category_id": "1735",
-        "category_name": "AR  | ALTHAMANIA SPORT VIP - F",
+        "category_name": " ALTHAMANIA SPORT VIP - F",
         "parent_id": 0
     },
     {
         "category_id": "1734",
-        "category_name": "AR  | ALTHAMANIA SPORT - F",
+        "category_name": " ALTHAMANIA SPORT - F",
         "parent_id": 0
     },
     {
         "category_id": "1407",
-        "category_name": "AR | SHAHID SPORTS (MATCH TIME EVENTS )  ◉ شـاهـد الـريـاضـيـة",
+        "category_name": " SHAHID SPORTS (MATCH TIME EVENTS )  ◉ شـاهـد الـريـاضـيـة",
         "parent_id": 0
     },
     {
         "category_id": "333",
-        "category_name": "AR  | ARABIC SPORT ◉ الـريـاضـيـة الـعـربـيـة",
+        "category_name": " ARABIC SPORT ◉ الـريـاضـيـة الـعـربـيـة",
         "parent_id": 0
     },
     {
         "category_id": "413",
-        "category_name": "AR  | ABU DHABI SPORTS & STARZPLAY",
+        "category_name": " ABU DHABI SPORTS & STARZPLAY",
         "parent_id": 0
     },
     {
         "category_id": "1068",
-        "category_name": "AR | AL RABIAA SPORTS ◉ الـــرابــعـــة الريــاضــية",
+        "category_name": " AL RABIAA SPORTS ◉ الـــرابــعـــة الريــاضــية",
         "parent_id": 0
     },
     {
         "category_id": "405",
-        "category_name": "AR  | ALKASS SPORT ◉ الـكـاس الريـاضية",
+        "category_name": " ALKASS SPORT ◉ الـكـاس الريـاضية",
         "parent_id": 0
     },
     {
@@ -106,137 +112,137 @@
     },
     {
         "category_id": "1125",
-        "category_name": "AR  | UEFA CHAMPIONS LEAGUE",
+        "category_name": " UEFA CHAMPIONS LEAGUE",
         "parent_id": 0
     },
     {
         "category_id": "334",
-        "category_name": "AR  | ARABIC NEWS 4K ◉ الأخــبار",
+        "category_name": " ARABIC NEWS 4K ◉ الأخــبار",
         "parent_id": 0
     },
     {
         "category_id": "408",
-        "category_name": "AR  | MBC 4K ◉ إم بــــي سِــي",
+        "category_name": " MBC 4K ◉ إم بــــي سِــي",
         "parent_id": 0
     },
     {
         "category_id": "319",
-        "category_name": "AR | MBC VIP ◉ إمْ بــــي سِــي",
+        "category_name": " MBC VIP ◉ إمْ بــــي سِــي",
         "parent_id": 0
     },
     {
         "category_id": "407",
-        "category_name": "AR |  OSN ◉ أُو.إس.إن",
+        "category_name": "  OSN ◉ أُو.إس.إن",
         "parent_id": 0
     },
     {
         "category_id": "338",
-        "category_name": "AR  | EGYPT ◉ مـِــــصـــــر",
+        "category_name": " EGYPT ◉ مـِــــصـــــر",
         "parent_id": 0
     },
     {
         "category_id": "336",
-        "category_name": "AR  | SYRIA ◉ سـوريا",
+        "category_name": " SYRIA ◉ سـوريا",
         "parent_id": 0
     },
     {
         "category_id": "335",
-        "category_name": "AR  | LEBANON ◉ لـبـنـان",
+        "category_name": " LEBANON ◉ لـبـنـان",
         "parent_id": 0
     },
     {
         "category_id": "230",
-        "category_name": "AR  | LEBANON - 2 ◉ لـبـنـان",
+        "category_name": " LEBANON - 2 ◉ لـبـنـان",
         "parent_id": 0
     },
     {
         "category_id": "339",
-        "category_name": "AR  | MOROCCO ◉ الـمـغـرب",
+        "category_name": " MOROCCO ◉ الـمـغـرب",
         "parent_id": 0
     },
     {
         "category_id": "337",
-        "category_name": "AR  | IRAQ⁴ᴷ ◉ الــــــعــــــراق",
+        "category_name": " IRAQ⁴ᴷ ◉ الــــــعــــــراق",
         "parent_id": 0
     },
     {
         "category_id": "1707",
-        "category_name": "AR | IRAQ⁴ᴷ ◉ الــــــعــــــراق 2",
+        "category_name": " IRAQ⁴ᴷ ◉ الــــــعــــــراق 2",
         "parent_id": 0
     },
     {
         "category_id": "343",
-        "category_name": "AR  | SAUDIA ◉ الــــســــعــــوديــــة",
+        "category_name": " SAUDIA ◉ الــــســــعــــوديــــة",
         "parent_id": 0
     },
     {
         "category_id": "355",
-        "category_name": "AR  | TUNISIA ⁴ᴷ ◉ تـونـس",
+        "category_name": " TUNISIA ⁴ᴷ ◉ تـونـس",
         "parent_id": 0
     },
     {
         "category_id": "347",
-        "category_name": "AR  | PALESTINE ◉ فـلـسـطـيـن",
+        "category_name": " PALESTINE ◉ فـلـسـطـيـن",
         "parent_id": 0
     },
     {
         "category_id": "354",
-        "category_name": "AR  | ALGERIA ◉ الـجـزائـر",
+        "category_name": " ALGERIA ◉ الـجـزائـر",
         "parent_id": 0
     },
     {
         "category_id": "1154",
-        "category_name": "AR  | BEIN ENTERTAINMENT - SOURCE 1",
+        "category_name": " BEIN ENTERTAINMENT - SOURCE 1",
         "parent_id": 0
     },
     {
         "category_id": "906",
-        "category_name": "AR | STARZPLAY ENTERTAINMENT ⁴ᴷ",
+        "category_name": " STARZPLAY ENTERTAINMENT ⁴ᴷ",
         "parent_id": 0
     },
     {
         "category_id": "1409",
-        "category_name": "AR | ALWAN ENTERTAINMENT ⁴ᴷ",
+        "category_name": " ALWAN ENTERTAINMENT ⁴ᴷ",
         "parent_id": 0
     },
     {
         "category_id": "1202",
-        "category_name": "AR | DANA TV ⁴ᴷ ◉ دانـــــا تــي فــي",
+        "category_name": " DANA TV ⁴ᴷ ◉ دانـــــا تــي فــي",
         "parent_id": 0
     },
     {
         "category_id": "1686",
-        "category_name": "AR | SHAHID RAMADAN",
+        "category_name": " SHAHID RAMADAN",
         "parent_id": 0
     },
     {
         "category_id": "1156",
-        "category_name": "AR  | ONCE TV ⁴ᴷ ◉ ونــس",
+        "category_name": " ONCE TV ⁴ᴷ ◉ ونــس",
         "parent_id": 0
     },
     {
         "category_id": "1162",
-        "category_name": "AR | ZINA ᵁᴸᵀᴿᴬ ᴴᴰ  ◉ زيـــنــا",
+        "category_name": " ZINA ᵁᴸᵀᴿᴬ ᴴᴰ  ◉ زيـــنــا",
         "parent_id": 0
     },
     {
         "category_id": "320",
-        "category_name": "AR  | ALFAJER ⁴ᴷ ◉ الـفـجـر",
+        "category_name": " ALFAJER ⁴ᴷ ◉ الـفـجـر",
         "parent_id": 0
     },
     {
         "category_id": "1169",
-        "category_name": "AR | FORJA 4K ◉ فـرجة",
+        "category_name": " FORJA 4K ◉ فـرجة",
         "parent_id": 0
     },
     {
         "category_id": "330",
-        "category_name": "AR  | EGYPTIAN SERIES ◉ مسلسلات مصرية",
+        "category_name": " EGYPTIAN SERIES ◉ مسلسلات مصرية",
         "parent_id": 0
     },
     {
         "category_id": "329",
-        "category_name": "AR  | SYRIAN SERIES ◉ مسلسلات سورية",
+        "category_name": " SYRIAN SERIES ◉ مسلسلات سورية",
         "parent_id": 0
     },
     {
