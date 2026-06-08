@@ -1969,14 +1969,14 @@
 {
     "channel": {
       "id": 1189,
-      "name": "شاهد اسبورت",
+      "name": "شاهد 5",
       "description": "",
       "image_url": "https://i.imgur.com/Yq3Jf19.png"
     },
     "qualities": [
       {
-        "quality_key": "verylow",
-        "quality_name": "Very Low",
+        "quality_key": "low",
+        "quality_name": "Low",
         "url": "https://storelink.store/live/17601176749336/41493546237431/1470054.m3u8",
         "bitrate": "",
         "resolution": ""
