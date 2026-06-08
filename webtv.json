@@ -1959,14 +1959,30 @@
         "resolution": ""
       }
     ]
+  },
+
+
+
+
+
+
+{
+    "channel": {
+      "id": 1189,
+      "name": "شاهد اسبورت 2 ***",
+      "description": "",
+      "image_url": "https://i.imgur.com/Yq3Jf19.png"
+    },
+    "qualities": [
+      {
+        "quality_key": "verylow",
+        "quality_name": "Very Low",
+        "url": "http://h56.vidgridcdn.online/live/500021000/index.m3u8?t=LkgsXol5gK-9HtwddOw8iQ&e=1769877818",
+        "bitrate": "",
+        "resolution": ""
+      }
+    ]
   }
-
-
-
-
-
-
-
 
 
 
